@@ -35,12 +35,10 @@ private:
   }
   
   void initGL(){
-
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     glMatrixMode(GL_MODELVIEW);
-    glLoadIdentity();
-    
+    glLoadIdentity();    
   }
   
   void glCheckError(){
